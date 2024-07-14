@@ -1,0 +1,17 @@
+.container{
+    display: flex;
+    justify-content:space-evenly;
+    gap: 2rem;
+}
+
+.box{
+    background-color: rgb(99, 99, 99);
+    padding: 80px;
+    border-radius: 10px;
+}
+
+@media (max-width: 720px){
+    .container{
+        display: grid;
+    }
+}

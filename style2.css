@@ -1,0 +1,23 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    perspective: 1000px;
+}
+
+.rectangle{
+    width: 300px;
+    height: 200px;
+    background-color: white;
+    border-radius: 15px;
+    border: 3px solid rgb(196, 193, 193);
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+    transform-style: preserve-3d;
+    transition: transform 1s;
+}
+
+.rectangle:hover {
+    transform: rotateX(45deg) translateZ(50px);
+}
