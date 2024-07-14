@@ -1,12 +1,24 @@
+.divContainer{
+    display: flex;
+    width: auto;
+    justify-content: center;
+}
+
 .container{
     display: flex;
-    justify-content:space-evenly;
     gap: 2rem;
+    padding: 1rem;
+}
+
+.border{
+    border: 3px solid;
+    border-radius: 20px;
+    border-color: rgb(0, 140, 255);
 }
 
 .box{
     background-color: rgb(99, 99, 99);
-    padding: 80px;
+    padding: 70px;
     border-radius: 10px;
 }
 
